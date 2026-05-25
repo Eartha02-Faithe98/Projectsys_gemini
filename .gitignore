@@ -1,0 +1,28 @@
+# 使用者指定排除
+4.png
+notes.md
+
+# 資安與隱私考量 (資料庫檔案)
+project_management.db
+*.sqlite3
+*.db
+
+# 環境變數與機密資訊 (防範未來加入)
+.env
+.env.local
+
+# Python 暫存與編譯檔案
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虛擬環境 (Virtual Environments)
+venv/
+env/
+.venv/
+
+# IDE 與編輯器設定
+.vscode/
+.idea/
+*.swp
+*.swo
